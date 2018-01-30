@@ -1,0 +1,145 @@
+/* This is the generic CSS for all ECB2 guild files.            */
+/* This file lists tags ("A", "BODY", etc.) first, then classes */
+/* ************************************************************ */
+
+a 		{ color: #6282C5; text-decoration: underline; }
+a em 		{ color: #6282C5; }
+a i		{ color: #6282C5; }
+a:visited 	{ color: #99CCFF; }
+a:visited em 	{ color: #99CCFF; }
+a:visited i 	{ color: #99CCFF; }
+a:hover 	{ color: #B03B3B; text-decoration: underline; }
+a:hover em 	{ color: #B03B3B; text-decoration: underline; }
+a:hover i 	{ color: #B03B3B; text-decoration: underline; }
+a:active 	{ color: #B03B3B; }
+
+b { color: #FFFFFF; }
+
+body {
+	padding: 1.5ex 3%;
+	background: #000000;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: #FFFFFF;
+}
+
+em	{ color: #FFFFFF; }
+form	{ margin-bottom: 4px; }
+
+h2	{ font-family: Verdana, arial, Helvetica, sans-serif; font-size: 13pt; color: #FFFFFF; }
+h3	{ font-family: Verdana, arial, Helvetica, sans-serif; font-size: 12pt; color: #FFFFFF; }
+h4	{ font-family: Verdana, arial, Helvetica, sans-serif; font-size: 10pt; color: #FFFFFF; }
+
+hr	{ height: 1px; }
+i	{ color: #FFFFFF; }
+
+ol	{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #CCCCCC; }
+p	{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #CCCCCC; }
+pre	{                                                     font-size: 12px; color: #CCCCCC; }
+
+select	{ font-size: 8pt; }
+strong	{ color: #FFFFFF; }
+
+td	{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #CCCCCC; }
+
+ul	{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #CCCCCC; }
+
+
+/* Generic formatting */
+
+br.clear-both	{ clear: both; }
+sup.symbol-tm	{ font-size: .7em; }
+
+.blackbg	{ background: #000000; }
+.indent		{ margin-top: 0px; margin-left: 60px; }
+.small		{ font-size: 10px; }
+.smalltext	{ font-size:  8pt; }
+.smallertext	{ font-size:  8pt; }
+.strikethrough	{ text-decoration: line-through; }
+.white		{ color: #FFFFFF; }
+
+/* Specific appearance formatting */
+
+.announcement	{ font-weight: bold; color: #FF6666; }
+.sticky		{ font-weight: bold; color: #FFFF66; }
+.forumcolor1	{ background-color: #000000; }
+.forumcolor2	{ background-color: #1a283c; }
+.forumcolor3	{ background-color: #234124; }
+.innerheader	{ background-color: #333333; color: #cccccc; }
+.vtclass1	{ background-color: #1a283c; }
+.vtclass2	{ background-color: #000000; }
+
+.title {
+	font-family:   Verdana, arial, helvetica, sans-serif;
+	font-size:     18pt;
+	color:         #FFFFFF;
+	margin-bottom: 10px;
+}
+.subtitle {
+	font-size:     10pt;
+	color:         #FFFFFF;
+	margin-top:    8px;
+	margin-bottom: -18px;
+}
+.subsubtitle {
+	font-size:     10pt;
+	color:         #CCCCCC;
+	margin-top:    8px;
+	margin-bottom: -18px;
+}
+a.subtitle 		{ text-decoration: none;      color: #FFFFFF; }
+a:visited.subtitle 	{ text-decoration: none;      color: #FFFFFF; }
+a:hover.subtitle 	{ text-decoration: underline; color: #FFFFFF; }
+a.subsubtitle 		{ text-decoration: none;      color: #CCCCCC; }
+a:visited.subsubtitle 	{ text-decoration: none;      color: #CCCCCC; }
+a:hover.subsubtitle 	{ text-decoration: underline; color: #CCCCCC; }
+
+
+.warn {
+    color:            #ff4444;
+    background-color: #000000;
+    margin-top:           3ex;
+    margin-bottom:        5ex;
+}
+
+
+/* Layout formatting */
+
+.gotop {
+	text-align:  right;
+	margin-top:    0em;
+	margin-bottom: 1em;
+}
+.gobottom {
+	text-align:  right;
+	margin-top:    1em;
+	margin-bottom: 0em;
+}
+
+
+.maintable {
+	border:              none;
+	width:               100%;
+        margin-top:           5px;
+        margin-bottom:        5px;
+	border-spacing:       1px;
+	text-align:          left;
+}
+.maintable th { padding: 3px; vertical-align: middle; }
+.maintable td { padding: 3px; vertical-align: middle; }
+.cellheader {
+	margin:        0px -3px;
+	padding:       0px  3px 3px;
+	border-bottom: 1px solid #5A6C95;
+}
+.cellfooter {
+	margin:     0px -3px;
+	padding:    5px  3px 2px;
+	border-top: 1px solid #5A6C95;
+}
+.cellmain {
+	padding: 3px 0px;
+}
+

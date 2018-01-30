@@ -1,0 +1,32 @@
+/* This is the style sheet for the display of posts making up a topic. */
+/* Built on top of the guild's base CSS: */
+@import "guild.css";
+
+
+/* table trimmings */
+
+.nav {
+    float:         left;
+    text-align:    left;
+    font-size:  smaller;
+    margin-top:     0px;
+    margin-bottom:  0px;
+    margin-left:     0%;
+    margin-right:   1em;
+}
+
+
+/* table appearance */
+
+.topictable { background-color: #5A6C95; }
+.topictable td:first-child { vertical-align: top; }
+
+.cellheader { height: 1.2em; }
+.cellfooter { height: 15px;  }
+
+.postedtext { color: #AAAAAA; }
+.editby     { color: #AAAAAA; font-size: 8pt; }
+.quote      { color: #AAAAAA; font-size: 8pt;
+              border-top:    solid 1px #999999;
+              border-bottom: solid 1px #999999; }
+

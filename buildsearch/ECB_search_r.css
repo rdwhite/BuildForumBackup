@@ -1,0 +1,61 @@
+/* ************************************************************ */
+/* This controls the layout of the search results.              */
+/* The color/presentation aspects are handled by ECB_search.css */
+/* ************************************************************ */
+
+body {
+	margin-top:       1.0ex;
+	margin-bottom:    0.5ex;
+	margin-left:        0px;
+	margin-right:       0px;
+    padding:     10px 0.5em;
+}
+
+div {
+    text-align:        left;
+    margin:         1ex 1em;
+}
+
+h3 {
+    text-align:      center;
+    margin-top:       0.0ex;
+    margin-bottom:    1.0ex;
+}
+
+p {
+    text-align:      center;
+    margin-top:         2ex;
+    margin-bottom:      4ex;
+}
+
+/* Various feedback */
+.criteria {
+    font-size:  smaller;
+}
+.matches {
+    font-size:  smaller;
+}
+
+.error {
+    text-align:  center;
+    margin-top:     3ex;
+    margin-bottom:  5ex;
+}
+.warn {
+    margin-top:     3ex;
+    margin-bottom:  5ex;
+}
+
+
+/* A build's display */
+.build {
+    margin-left:      0em;
+    margin-right:     0em;
+    margin-top:       0px;
+    margin-bottom:   -1px;
+    padding:  1.5ex 0.5em;
+
+    border-top:    thin solid;
+    border-bottom: thin solid;
+}
+

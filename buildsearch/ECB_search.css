@@ -1,0 +1,109 @@
+/* ************************************************************ */
+/* This is the generic CSS for the ECB search files.            */
+/* It contains the color/presentation aspects and layout for    */
+/* the page overall. The layout within the search forms is      */
+/* controlled by the '_s' and '_r' files.                       */
+/* ************************************************************ */
+
+a           { color: #6282C5; text-decoration: underline; }
+a:visited 	{ color: #99CCFF; }
+a:hover 	{ color: #B03B3B; text-decoration: underline; }
+a:active 	{ color: #B03B3B; }
+
+body {
+	background:  black;
+	color:       white;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	padding:       1.5ex 3%;
+	margin-top:       1.0ex;
+	margin-bottom:    0.5ex;
+	margin-left:        0px;
+	margin-right:       0px;
+}
+
+button {
+    color:                white;
+    background-color:     black;
+    border-color:       #6282C5;
+    border-style: medium groove;
+}
+button:hover     { border-color:     #99CCFF; }
+button:active    { background-color: #003399; }
+button[disabled] { background-color: #444444; color: #cccccc; }
+
+form {
+    border: thick groove;
+}
+
+fieldset {
+    border:    thin ridge;
+}
+
+h1 { font-size: 1.5em; color: #ffffff; }
+h2 { font-size: 1.3em; color: #ffffff; }
+h3 { font-size: 1.2em; color: #ffff00; }
+
+legend {
+    color:            #cccccc;
+    background-color: #333333;
+}
+
+p {
+    color:       #CCCCCC;
+}
+
+
+/* Special classes */
+
+.error {
+    font-size:         larger;
+    font-weight:       bolder;
+    color:                red;
+    background-color: #000044;
+}
+
+.warn {
+    font-weight:     bolder;
+    color:              red;
+    background-color: black;
+}
+
+/* Formatting classes */
+
+input.feedback {
+    color:           #6282C5;
+    background-color:  black;
+    border:             none;
+}
+input.feedback[disabled] {
+    color:           #6282C5;
+    background-color:  black;
+    border:             none;
+}
+
+/*
+.innerheader	{ background-color: #333333; color: #cccccc; }
+*/
+
+
+/* Colors for the search results */
+
+/* Alternating backgrounds */
+.even { background-color: #000000; }
+.odd  { background-color: #1a283c; }
+
+/* A build's display */
+.build { border-color: grey; }
+
+/* Various parts of a build's display */
+.classinfo          { color: #cccccc; font-style: oblique; }
+.raceinfo           { color: #cccccc; }
+.authorinfo         { color: #99ccff; }
+
+.buildlink          { font-weight: bolder; }
+.buildlink:link     { color: #ffffff; text-decoration: none; }
+.buildlink:visited  { color: #cccccc; }
+.buildlink:hover    { color: #6282C5; text-decoration: underline; }
+.buildlink:active   { color: #B03B3B; }
+

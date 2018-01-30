@@ -1,0 +1,49 @@
+/* This is the style sheet for the list of topics making up a forum. */
+/* Built on top of the guild's base CSS: */
+@import "guild.css";
+
+/* table appearance */
+
+.forumtable {
+	background-color: #2f3742;
+	width:            80%;
+	margin-left:      auto;
+	margin-right:     auto;
+	padding:          2px;
+}
+.forumtable th	{ text-align: center; }
+.forumtable td	{ text-align: center; }
+/* The second column should be a fixed width. */
+.forumtable td:first-child + td		{ width: 5px; }
+/* The third column should be left-justified. */
+.forumtable th:first-child + th + th	{ text-align: left; }
+.forumtable td:first-child + td + td	{ text-align: left; padding: 1px 2px; }
+
+.guildtable {
+	background-color: #5A6C95;
+	width:            60%;
+	margin-left:      auto;
+	margin-right:     auto;
+}
+.guildtable th	{ text-align: center; }
+.guildtable td	{ text-align: center; }
+/* The first cell should be left-justified. */
+.guildtable tr:first-child td:first-child	{ text-align: left; }
+/* The second column should be left-justified. */
+.guildtable td:first-child + td			{ text-align: left; }
+
+
+
+.postcell	{ background-color: #000000; }
+.forumcell	{ background-color: #000000; }
+.postnos	{ background-color: #000000; }
+.lastpost	{ background-color: #26354E; font-size: 8pt; width: 140px; }
+
+.lastpostlink {
+}
+
+.forumdescription { font-size: 7pt; }
+.topicuname	  { font-size: 8pt; color: #f0dbbd; }
+
+.headerspacer	{ height: 1.8ex; }
+

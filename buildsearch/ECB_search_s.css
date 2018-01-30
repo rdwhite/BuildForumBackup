@@ -1,0 +1,174 @@
+/* ************************************************************ */
+/* This controls the layout of the main search page.            */
+/* The color/presentation aspects are handled by ECB_search.css */
+/* ************************************************************ */
+
+
+/***************************/
+/* Generic                 */
+/***************************/
+
+
+h1, h2 {
+    text-align:    center;
+    margin-top:     0.0ex;
+    margin-bottom:  1.0ex;
+}
+h1 > h2 {
+    margin-top:    -0.5ex;
+}
+
+input  {
+    margin-left:   0.5em;
+    margin-right:  0.5em;
+    margin-top:    0.0ex;
+    margin-bottom: 0.0ex;
+    padding:       0.0px;
+}
+label input  {
+    display: inline-block;
+    float:           left;
+    margin-right:   0.5em;
+    margin-left:    0.0em;
+}
+
+label {
+    display: inline-block;
+    text-align:      left;
+    margin-left:    0.0em;
+    margin-right:   0.5em;
+    margin-top:     0.0ex;
+    margin-bottom:  0.0ex;
+    padding:        0.0px;
+}
+
+legend {
+    text-align:   left;
+    margin:        0px;
+    padding:   0px 5px;
+}
+
+p {
+    text-align:   center;
+    margin-top:      2ex;
+    margin-bottom:   4ex;
+}
+
+select {
+    margin:  0.0ex 0.5em;
+    padding: 0.0ex 0.0em;
+}
+
+/* Column alignment */
+.colalign {
+    display: inline-block;
+    vertical-align:   top;
+    margin:           0px;
+    padding:          0px;
+}
+.colalign + .colalign {
+    margin-left:      1em;
+}
+.colalign > * {
+    width:           100%;
+}
+
+/* Misc. alignment */
+.spacing {
+    visibility: hidden;
+}
+
+/* Error feedback */
+.error {
+    text-align:    center;
+    margin-top:       3ex;
+    margin-bottom:    5ex;
+}
+.warn {
+    margin-top:       3ex;
+    margin-bottom:    5ex;
+}
+
+
+
+/***************************/
+/* Specific                */
+/***************************/
+
+
+/* The search button */
+button#searchbutton {
+    display:       block;
+
+    margin-left:   0.0em;
+    margin-right:  0.0em;
+    margin-top:    4.0ex;
+    margin-bottom: 2.0ex;
+    padding: 1.5ex 1.5em;
+}
+
+
+/* The search criteria form */
+form#criteria { 
+    text-align:   center;
+    width:          48em;
+    margin-left:    auto;
+    margin-right:   auto;
+    margin-top:    1.0ex;
+    margin-bottom: 1.0ex;
+    padding: 0.5ex 0.5em;
+}
+
+/* Selected class selection */
+fieldset#classset {
+    text-align:   center;
+    width:          46em;
+    margin-left:     1em;
+    margin-right:    1em;
+    margin-top:      1ex;
+    margin-bottom:   0ex;
+    padding: 1.0ex 0.2em;
+
+    display: none;
+}
+
+/* Race selection */
+fieldset#raceset {
+    text-align:   center;
+    width:          24em;
+    margin-left:     1em;
+    margin-right:    2em;
+    margin-top:      2ex;
+    margin-bottom:   1ex;
+    padding: 0.5ex 0.5em;
+
+    float:left;
+}
+
+/* Sort selection */
+fieldset#sortset {
+    text-align:   center;
+    width:        18.0em;
+    margin-left:   0.0em;
+    margin-right:  0.0em;
+    margin-top:    2.5ex;
+    margin-bottom: 2.0ex;
+    padding: 0.5ex 0.5em;
+}
+fieldset#sortset legend {
+    text-align:   center;
+}
+
+/* The search results frame */
+iframe#resultsframe {
+    height:       75ex;
+    margin-top:    2ex;
+    margin-bottom: 2ex;
+
+    width:         90%;
+    margin-left:    5%;
+    margin-right:   5%;
+
+    display: none;
+}
+
